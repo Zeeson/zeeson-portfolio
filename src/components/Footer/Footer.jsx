@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
+import PortfolioContext from '../../context/context'; 
 
 import { githubButtons } from '../../mock/data';
 
@@ -26,7 +25,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || 'https://github.com/Zeeson'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -36,15 +35,13 @@ const Footer = () => {
               );
             })}
         </div>
-        <hr />
+        {/* <hr /> */}
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+        Copyright © {new Date().getFullYear()} -{' '}
+          <a href="https://github.com/Zeeson" target="_blank" rel="noopener noreferrer">
+            Ibrahim Saliman Abu-Zainab
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );

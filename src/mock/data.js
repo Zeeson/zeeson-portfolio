@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Zeeson', // e.g: 'Name | Developer'
+  title: "Ibrahim's Portfolio", // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Ibrahim Portfolio', // e.g: Welcome to my website
 };
@@ -17,10 +17,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631227641/arrow-rigth_ewk3k0.png',
-  paragraphOne: "I'm an intermediate Full-Stack Engineer with Internships, clients and personal projects experience. My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, Express, and MongoDB to build full-stack responsive web applications. I'm currently building Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile.png',
+  paragraphOne: "I'm an intermediate Full-Stack Engineer with Internships, clients and personal projects experience. ",
+  paragraphTwo: "My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, Express, and MongoDB to build full-stack responsive web applications. ",
+  paragraphThree: "I'm currently building Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
   resume: 'https://drive.google.com/file/d/1nwgS_kjueFaGwzozi7VWBQxm_TlWHFxn/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631227858/tractive_hevz0w.png',
+    img: 'tractive.png',
     title: 'TractiveEngine',
     info: 'TractiveEngine is an economic sharing startup platform that connects fleets owners to farmers looking for fleets such as tractor',
     info2: 'Building with MERN stack',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631229135/workmatePortfolio_da7mgt.png',
+    img: 'workmate.png',
     title: 'Workmate',
     info: 'Workmate is a peer to peer academic work solution',
     info2: 'Building with MERN and Auth0',
@@ -46,7 +46,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631229138/fundMyfarm_f11iux.png',
+    img: 'fundMyfarm.png',
     title: 'FundMyFarm',
     info: 'FundMyFarm is a platform that connects smallholder farmers to lenders',
     info2: 'Building with MERN stack ',
@@ -55,7 +55,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631229135/talk2Hear_h4n18g.png',
+    img: 'talk2Hear.png',
     title: 'Talk2Hear',
     info: 'Talk2Hear is a reward-based information sharing and media reporting app',
     info2: 'React and Firebase',
@@ -64,12 +64,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'https://res.cloudinary.com/zeeson-info-tech-and-innovations/image/upload/v1631227992/screen2_dmvdrz.png',
-    title: 'Fertilo Landing Page',
-    info: 'This is the Landing page for FERTILO project',
-    info2: 'Built with Node, Express, Mongodb, EJS, CSS, Bootstrap and Jquery',
-    url: 'http://fertilo.herokuapp.com/',
-    repo: 'https://github.com/Zeeson/landingpage', // if no repo, the button will not show up
+    img: 'arewa.png',
+    title: 'ArewaCash',
+    info: 'ArewaCash is cashless, paper-free and interest-free creidt facility for small and medium scale businesses',
+    info2: 'Built with NextJs and Firebase',
+    url: 'https://arewacash.netlify.app/',
+    repo: 'https://github.com/Zeeson/Arewacash-Landing', // if no repo, the button will not show up
   },
 ];
 
