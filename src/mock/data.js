@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: "I'm an intermediate Full-Stack Engineer with Internships, clients and personal projects experience. ",
-  paragraphTwo: "My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, Express, and MongoDB to build full-stack responsive web applications. ",
+  paragraphTwo: "My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, NodeJs, Express, and MongoDB to build full-stack responsive web applications. ",
   paragraphThree: "I'm currently building Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
   resume: 'https://drive.google.com/file/d/1nwgS_kjueFaGwzozi7VWBQxm_TlWHFxn/view?usp=sharing', // if no resume, the button will not show up
 };
