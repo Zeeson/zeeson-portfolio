@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is ', 
-  name: 'Ibrahim Saliman Abu-Zainab',
+  name: 'Ibrahim Saliman Zainab',
   subtitle: "I'm a Full-Stack Engineer",
   cta: 'Come with me ',
 };
@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: "I'm an intermediate Full-Stack Engineer with Internships, clients and personal projects experience. ",
+  paragraphOne: "I'm an intermediate Full-Stack Engineer with more than three years of software development experience. ",
   paragraphTwo: "My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, NodeJs, Express, and MongoDB to build full-stack responsive web applications. ",
-  paragraphThree: "I'm currently building Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
-  resume: 'https://drive.google.com/file/d/1nwgS_kjueFaGwzozi7VWBQxm_TlWHFxn/view?usp=sharing', // if no resume, the button will not show up
+  paragraphThree: "I'm currently working as a React Frontend developer at Leanrgual, building an AI edtech startup.",
+  paragraphFour: "My projects includes Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
+  resume: 'https://drive.google.com/file/d/1y5_eZ672CX9NJI2hJqFviajejcEuVMlL/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,7 +33,7 @@ export const projectsData = [
     title: 'TractiveEngine',
     info: 'TractiveEngine is an economic sharing startup platform that connects fleets owners to farmers looking for fleets such as tractor',
     info2: 'Building with MERN stack',
-    url: 'https://tractive.herokuapp.com',
+    url: 'https://tractivengine.com',
     repo: 'https://github.com/BuildForSDGCohort2/Tractive', // if no repo, the button will not show up
   },
   {
@@ -41,18 +42,18 @@ export const projectsData = [
     title: 'Workmate',
     info: 'Workmate is a peer to peer academic work solution',
     info2: 'Building with MERN and Auth0',
-    url: 'https://workmate-frontend.vercel.app/',
+    url: 'https://workmateteam.com',
     repo: 'https://github.com/Student-tutor/workmate_frontend', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'fundMyfarm.png',
-    title: 'FundMyFarm',
-    info: 'FundMyFarm is a platform that connects smallholder farmers to lenders',
-    info2: 'Building with MERN stack ',
-    url: 'https://fundmyfarm.herokuapp.com/',
-    repo: 'https://github.com/Zeeson/FundMyFarms', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'fundMyfarm.png',
+  //   title: 'FundMyFarm',
+  //   info: 'FundMyFarm is a platform that connects smallholder farmers to lenders',
+  //   info2: 'Building with MERN stack ',
+  //   url: 'https://fundmyfarm.herokuapp.com/',
+  //   repo: 'https://github.com/Zeeson/FundMyFarms', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'talk2Hear.png',
