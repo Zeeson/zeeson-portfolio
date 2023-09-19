@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "I'm an intermediate Full-Stack Engineer with more than three years of software development experience. ",
   paragraphTwo: "My skills are ranging from React, Redux, HTML, CSS, Javascript, Jquery, Bootstrap, NodeJs, Express, and MongoDB to build full-stack responsive web applications. ",
   paragraphThree: "I'm currently working as a React Frontend developer at Leanrgual, building an AI edtech startup.",
-  paragraphFour: "My projects includes Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
+  paragraphFour: "My projects include Workmate, TractiveEngine, FundMyFarm, HelpingDoctors, and ArewaPreneurs. Looking forward to building and contributing to more awesome projects",
   resume: 'https://drive.google.com/file/d/1y5_eZ672CX9NJI2hJqFviajejcEuVMlL/view?usp=sharing', // if no resume, the button will not show up
 };
 
